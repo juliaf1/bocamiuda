@@ -68,10 +68,10 @@ carla = {
   cidade: "São Gonçalo",
   social: "carlassssantana",
   pdf: "www.google.com",
-  h1: "O mais dificil é começar",
-  h2: "Nós pensamos com o corpo todo",
+  h1: "O mais dificil  é começar",
+  h2: "Nós pensamos  com o corpo todo",
   h3: "Quero ser lembrada sem ser vista",
-  p1: "Desde o início da minha trajetória no teatro junto com a Jade Maria eu justifico minha prática através  do meu corpo. Na busca de acessar entranhas doloridas ou não. Hoje consigo demarcar momentos, pontos, bifurcações  e ideias-chaves que pairam a minha produção. No primeiro momento,  creio que inconscientemente, acreditava na arte como um meio de cura. Trazer  à tona centelhas de lugares emocionais indecifráveis e, ao mesmo tempo, preencher de indagações lacunas sobre  a minha experiência num corpo-social repleto de tensões. De prima, minha linha expressiva se aliou à uma necessidade de expurgação. Falo sobre reflexões má digeridas, comunicação sempre foi um  problema. Ser vista e ouvida também.
+  p1: "Desde o início da minha trajetória  no teatro junto com a Jade Maria , eu justifico minha prática através  do meu corpo. Na busca de acessar entranhas doloridas ou não. Hoje consigo demarcar momentos, pontos, bifurcações  e ideias-chaves que pairam a minha produção. No primeiro momento,  creio que inconscientemente, acreditava na arte como um meio de cura. Trazer  à tona centelhas de lugares emocionais indecifráveis e, ao mesmo tempo, preencher de indagações lacunas sobre  a minha experiência num corpo-social repleto de tensões. De prima, minha linha expressiva se aliou à uma necessidade de expurgação. Falo sobre reflexões má digeridas, comunicação sempre foi um  problema. Ser vista e ouvida também.
 
 Queria mostrar os problemas, as dores, as inquietações: o indizível. Quando meu trabalho começa a circular em exposições, atrelado a criação da Trovoa, compreendo uma outra dimensão muito importante: o olhar de fora. Para quem eu estou transmitindo. As interpretações  e identificações mostram-me que  eu havia traduzido na minha particularidade imagens e sensações  que me aproximavam dos meus pares.  Então, como guia começo a investigar  a linha tênue entre o corpo-social  e o corpo-subjetivo, entre o íntimo e o público.",
   p2: "Falando sobre cura, uma pessoa se fez catapulta, me atirando num processo  de afirmação para acreditar no meu  processo e impulsioná-lo. Em 2017 conheci a Ângela Brito, nas reuniões da CURA,  onde nos reunimos com outras mulheres  que trabalham com criação. Estava num momento batendo cabeça e Ângela me disse: 'Só pega e faz. Onde te disserem que você não pode, você enfia o pé e diz Eu posso!'",
