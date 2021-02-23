@@ -1,0 +1,30 @@
+.category-tag {
+  display: flex;
+  align-items: center;
+  background-color: $black;
+  padding: 16px 24px;
+  border-radius: 40px;
+  margin-bottom: 16px;
+  cursor: pointer;
+
+  img {
+    height: 16px;
+    margin-right: 8px;
+  }
+
+  p {
+    margin: 0;
+    font-family: 'Durango Kid', sans-serif;
+    color: $white;
+  }
+}
+
+#Colagem {
+  img {
+    height: 22px;
+  }
+}
+
+.container-categories-cards {
+  margin-bottom: 40px;
+}

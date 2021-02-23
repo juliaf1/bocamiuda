@@ -1,0 +1,15 @@
+.artist-card {
+  font-weight: 500;
+  border-bottom: 1px solid $light-gray;
+  margin-bottom: 16px;
+
+  h4 {
+    font-size: 18px;
+    text-decoration: underline;
+  }
+
+  p {
+    font-size: 16px;
+    color: $medium-gray;
+  }
+}

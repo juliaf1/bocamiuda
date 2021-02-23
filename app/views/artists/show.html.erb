@@ -1,13 +1,12 @@
-<div class="artist-page-container">
-  <%= image_tag('logo_preto.svg', class: 'logo-preto') %>
-
-  <div class="artist-info-container">
-    <div class="artist-info-name">
-      <%= image_tag('icon-circulo.svg', class: 'artist-icon') %>
-      <h2><%= @artist.nome %></h2>
-    </div>
-    <h3><%= @artist.cidade %></h3>
+<div class="artist-info-container">
+  <div class="artist-info-name">
+    <%= image_tag('icon-circulo.svg', class: 'artist-icon') %>
+    <h2><%= @artist.nome %></h2>
   </div>
+  <h3><%= @artist.cidade %></h3>
+</div>
+
+<% if @artist.h1 %>
 
   <div class="artist-img-container">
     <%= image_tag("#{@artist.f1}", class: 'artist-img') %>
@@ -44,37 +43,29 @@
     <p class="artist-img-legenda"><%= @artist.f4_legenda %></p>
   </div>
 
-  <hr class="artist-page-solid-dash">
+<% else %>
 
-  <div class="artist-page-links">
-    <%= link_to "http://instagram.com/#{@artist.social}", target: "_blank" do %>
-      <div class="artist-link">
-        <%= image_tag('social.svg', class: 'social-icon') %>
-        <p>@<%= @artist.social %></p>
-      </div>
-    <% end %>
-
-    <%= link_to "https://#{@artist.pdf}", target: "_blank" do %>
-      <div class="artist-link">
-        <%= image_tag('download.svg', class: 'social-icon') %>
-        <p>download PDF</p>
-      </div>
-    <% end %>
+  <div class="artist-text-content">
+    <h1>Em breve</h1>
+    <p>A página desse artista está em construção</p>
   </div>
 
-</div>
+<% end %>
 
-<div class="footer">
-  <div class="footer-content">
-    <%= image_tag('logo_branco.svg', class: 'footer-logo') %>
-    <div class="footer-icons">
-      <%= image_tag('icon-estrela.svg', class: 'icon-estrela') %>
-      <%= image_tag('icon-circulo.svg', class: 'footer-icon') %>
-      <%= image_tag('icon-triangulo.svg', class: 'footer-icon') %>
-      <%= image_tag('icon-quadrado.svg', class: 'footer-icon') %>
+<hr class="artist-page-solid-dash">
+
+<div class="artist-page-links">
+  <%= link_to "http://instagram.com/#{@artist.social}", target: "_blank" do %>
+    <div class="artist-link">
+      <%= image_tag('social.svg', class: 'social-icon') %>
+      <p>@<%= @artist.social %></p>
     </div>
-    <hr class="footer-dash">
+  <% end %>
 
-    <p class="footer-text">Say hello:<br>fala@bocamiuda.com</p>
-  </div>
+  <%= link_to "https://#{@artist.pdf}", target: "_blank" do %>
+    <div class="artist-link">
+      <%= image_tag('download.svg', class: 'social-icon') %>
+      <p>download PDF</p>
+    </div>
+  <% end %>
 </div>

@@ -4,33 +4,12 @@
   }
 }
 
-body {
-  padding: 0;
-  margin: 0;
-  background-color: $white;
-}
-
-p {
-  font-family: 'Lato', sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 300;
-  color: $black;
-}
-
-h1, h2, h3, h4, h5 {
-  font-family: 'Durango Kid', sans-serif;
-  font-weight: 400;
-  margin-top: 0;
-  color: $black;
-}
-
 .logo-preto {
   height: 40px;
   margin: 32px 24px 48px;
 }
 
-.artist-page-container {
+.page-container {
   padding: 40px 16px;
   width: 600px;
   margin: 0 auto;
@@ -112,56 +91,14 @@ h1, h2, h3, h4, h5 {
   margin-right: 8px;
 }
 
-.footer {
-  width: 100%;
-  height: 500px;
-  background-color: #0A0A0A;
-}
-
-.footer-content {
-  padding: 40px 48px;
-}
-
-.footer-logo {
-  height: 48px;
-  margin-bottom: 16px;
-}
-
-.footer-icons {
-  display: flex;
-  align-items: center;
-}
-
-.footer-icon {
-  height: 16px;
-  margin-right: 14px;
-}
-
-.icon-estrela {
-  height: 22px;
-  margin-right: 8px;
-}
-
-.footer-dash {
-  border: 1px solid #333333;
-  margin: 24px 0 40px;
-}
-
-.footer-text {
-  font-family: 'Durango Kid', sans-serif;
-  font-weight: 500;
-  color: #4F4F4F;
-  text-decoration: underline;
-}
-
 @media (max-width: 768px) {
-  .artist-page-container {
+  .page-container {
     width: 70%;
   }
 }
 
 @media (max-width: 600px) {
-  .artist-page-container {
+  .page-container {
     width: 80%;
   }
 }

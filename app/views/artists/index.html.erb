@@ -1,5 +1,19 @@
-<h1>Boca Miúda</h1>
+<div class="container-categories-cards">
+  <% @categories.each do |c| %>
+    <div class="category-tag" id="<%= c.nome %>">
+      <%= image_tag("#{c.icon}.svg") %>
+      <p><%= c.nome %></p>
+    </div>
+  <% end %>
+</div>
 
-<% @artists.each do |a| %>
-  <p><%= a.nome %></p>
-<% end %>
+<div class="container-artists-cards">
+  <% @artists.each do |a| %>
+    <%= link_to artist_path(a) do %>
+      <div class="artist-card">
+        <h4><%= a.nome %></h4>
+        <p><%= a.cidade %></p>
+      </div>
+    <% end %>
+  <% end %>
+</div>
