@@ -1,12 +1,9 @@
-.navbar-lewagon {
+.boca-navbar {
+  display: flex;
   justify-content: space-between;
-  background: white;
-}
+  align-items: center;
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
-}
-
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+  a {
+    color: $black;
+  }
 }

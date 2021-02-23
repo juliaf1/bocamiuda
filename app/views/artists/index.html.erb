@@ -1,5 +1,8 @@
-<h1>Boca Miúda</h1>
-
-<% @artists.each do |a| %>
-  <p><%= a.nome %></p>
-<% end %>
+<div class="page-container">
+  <div class="boca-navbar">
+    <%= link_to root_path do %>
+      <%= image_tag('logo_preto.svg', class: 'logo-preto') %>
+    <% end %>
+    <%= link_to "About", root_path %>
+  </div>
+</div>
