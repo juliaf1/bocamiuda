@@ -1,0 +1,6 @@
+<% @categories.each do |c| %>
+  <div class="category-tag" id="<%= c.nome %>">
+    <%= image_tag("#{c.icon}.svg") %>
+    <p><%= c.nome %></p>
+  </div>
+<% end %>
