@@ -33,7 +33,7 @@ class ArtistsController < ApplicationController
 
   def update
     authorize @artist
-    if @artist.update(post_params)
+    if @artist.update(artist_params)
       redirect_to artist_path(@artist)
     else
       render :new, alert: "Eita, deu ruim. Tente de novo."
