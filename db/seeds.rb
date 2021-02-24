@@ -1,3 +1,13 @@
+# Create Admin User
+
+manoel = {
+  email: 'manoel.bemi@gmail.com',
+  password: 'bocamiuda2021',
+  admin: true
+}
+
+User.create(manoel)
+
 # Categories
 
 c1 = {
