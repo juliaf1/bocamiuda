@@ -1,0 +1,35 @@
+<div class="artist-form-container">
+  <div class="artist-form-card">
+
+    <%= simple_form_for @artist, url: artists_path, method: 'post' do |f| %>
+      <%= f.error_notification %>
+
+      <div class="form-inputs">
+        <%= f.input :nome, label: 'Nome do Artista' %>
+        <%= f.input :cidade, label: 'Cidade Natal' %>
+        <%= f.association :category, label_method: :nome %>
+        <%= f.input :social, label: 'Instagram', placeholder: '@manoelmanoel' %>
+        <%= f.input :pdf, label: 'Link de download do PDF', placeholder: 'www.urlurl.com' %>
+        <%= f.input :f1, label: 'Link da Foto 1', placeholder: 'https://...' %>
+        <%= f.input :f1_legenda, label: 'Legenda da Foto 1', :input_html => {:style => 'width: 100%', :rows => 3 } %>
+        <%= f.input :f2, label: 'Link da Foto 2', placeholder: 'https://...' %>
+        <%= f.input :f2_legenda, label: 'Legenda da Foto 2', :input_html => {:style => 'width: 100%', :rows => 10 } %>
+        <%= f.input :f3, label: 'Link da Foto 3', placeholder: 'https://...' %>
+        <%= f.input :f3_legenda, label: 'Legenda da Foto 3', :input_html => {:style => 'width: 100%', :rows => 3 } %>
+        <%= f.input :f4, label: 'Link da Foto 4', placeholder: 'https://...' %>
+        <%= f.input :f4_legenda, label: 'Legenda da Foto 4', :input_html => {:style => 'width: 100%', :rows => 3 } %>
+        <%= f.input :h1, label: 'Título 1' %>
+        <%= f.input :p1, label: 'Parágrafo - 1', :input_html => {:style => 'width: 100%', :rows => 20 } %>
+        <%= f.input :h2, label: 'Título 2' %>
+        <%= f.input :p2, label: 'Parágrafo - 2', :input_html => {:style => 'width: 100%', :rows => 20 } %>
+        <%= f.input :h3, label: 'Título 3' %>
+        <%= f.input :p3, label: 'Parágrafo - 3', :input_html => {:style => 'width: 100%', :rows => 20 } %>
+      </div>
+
+      <div class="form-actions">
+        <%= f.button :submit, "Publicar", class: 'primary-btn' %>
+      </div>
+    <% end %>
+
+  </div>
+</div>
