@@ -1,1 +1,46 @@
-// Specific CSS for your home-page
+.general-heading {
+  margin-bottom: 24px;
+
+  p {
+    color: $medium-gray;
+    font-weight: 500;
+    font-size: 18px;
+    max-width: 280px;
+  }
+}
+
+.logo-preto-home {
+  width: 216px;
+  margin-bottom: 16px;
+}
+
+.sobre-heading-icon {
+  width: 248px;
+}
+
+.sobre-content {
+  h5 {
+    color: $off-black;
+    font-size: 18px;
+  }
+
+  p {
+    color: $light-gray;
+    font-size: 18px;
+    max-width: 350px;
+  }
+}
+
+.colaboradores {
+  text-decoration: underline;
+}
+
+@media (max-width: 300px) {
+  .sobre-heading-icon {
+    width: 200px;
+  }
+
+  .logo-preto-home {
+    width: 200px;
+  }
+}

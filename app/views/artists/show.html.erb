@@ -1,6 +1,6 @@
 <div class="artist-info-container">
   <div class="artist-info-name">
-    <%= image_tag('icon-circulo.svg', class: 'artist-icon') %>
+    <%= image_tag("#{@artist.category.icon}.svg", class: 'artist-icon') %>
     <h2><%= @artist.nome %></h2>
   </div>
   <h3><%= @artist.cidade %></h3>

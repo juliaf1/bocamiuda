@@ -4,8 +4,14 @@
   background-color: #0A0A0A;
 }
 
+.footer-content-container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
 .footer-content {
-  padding: 40px 48px;
+  padding: 40px 0 48px;
 }
 
 .footer-logo {
@@ -35,7 +41,13 @@
 
 .footer-text {
   font-family: 'Durango Kid', sans-serif;
-  font-weight: 500;
-  color: #4F4F4F;
+  font-weight: 200;
+  color: $dark-gray;
   text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+  .footer-content-container {
+    width: 100%;
+  }
 }

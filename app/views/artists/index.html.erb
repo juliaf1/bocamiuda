@@ -1,6 +1,11 @@
+<div class="general-heading">
+  <%= image_tag('logo_preto.svg', class: 'logo-preto-home') %>
+  <p>Estamos repensando possibilidades  e plataformas de arte na internet.</p>
+</div>
+
 <div class="container-categories-cards">
   <% @categories.each do |c| %>
-    <div class="category-tag" id="<%= c.nome %>">
+    <div class="category-tag" id="<%= c.nome.downcase.split(" ").first %>">
       <%= image_tag("#{c.icon}.svg") %>
       <p><%= c.nome %></p>
     </div>
@@ -10,8 +15,11 @@
 <div class="container-artists-cards">
   <% @artists.each do |a| %>
     <%= link_to artist_path(a) do %>
-      <div class="artist-card">
-        <h4><%= a.nome %></h4>
+      <div class="artist-card <%= a.category.nome.downcase.split(" ").first %>">
+        <div class="artist-card-name">
+          <%= image_tag("#{a.category.icon}.svg") %>
+          <h4><%= a.nome %></h4>
+        </div>
         <p><%= a.cidade %></p>
       </div>
     <% end %>

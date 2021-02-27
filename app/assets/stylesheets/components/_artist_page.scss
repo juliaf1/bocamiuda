@@ -4,26 +4,16 @@
   }
 }
 
-.logo-preto {
-  height: 40px;
-  margin: 32px 24px 48px;
-}
-
-.page-container {
-  padding: 40px 16px;
-  width: 600px;
-  margin: 0 auto;
-}
-
 .artist-info-container {
   margin-bottom: 24px;
-  padding-left: 16px;
-}
+  padding-left: 12px;
 
-.artist-info-container > h3 {
-  color: $light-gray;
-  font-size: 16px;
-  margin: 0;
+  h3 {
+    color: $light-gray;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+  }
 }
 
 .artist-info-name {
@@ -43,7 +33,7 @@
 }
 
 .artist-img-container {
-  margin: 32px 0 48px;
+  margin: 32px 0;
 }
 
 .artist-img {
@@ -57,12 +47,12 @@
   font-size: 14px;
   line-height: 116%;
   color: #BDBDBD;
-  padding-left: 16px;
+  padding-left: 12px;
   margin: 0;
 }
 
 .artist-text-content {
-  padding: 0 16px;
+  padding: 0 12px;
 }
 
 .artist-page-solid-dash {
@@ -71,7 +61,7 @@
 
 .artist-page-links {
   margin: 32px 0;
-  padding-left: 16px;
+  padding-left: 12px;
 }
 
 .artist-link {
@@ -89,16 +79,4 @@
 .social-icon {
   height: 20px;
   margin-right: 8px;
-}
-
-@media (max-width: 768px) {
-  .page-container {
-    width: 70%;
-  }
-}
-
-@media (max-width: 600px) {
-  .page-container {
-    width: 80%;
-  }
 }
