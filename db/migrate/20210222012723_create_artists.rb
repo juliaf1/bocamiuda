@@ -14,10 +14,10 @@ class CreateArtists < ActiveRecord::Migration[6.0]
       t.string :f2
       t.string :f3
       t.string :f4
-      t.string :f1_legenda
-      t.string :f2_legenda
-      t.string :f3_legenda
-      t.string :f4_legenda
+      t.text :f1_legenda
+      t.text :f2_legenda
+      t.text :f3_legenda
+      t.text :f4_legenda
       t.string :social
       t.string :pdf
 
