@@ -86,10 +86,10 @@ carla = {
 Queria mostrar os problemas, as dores, as inquietações: o indizível. Quando meu trabalho começa a circular em exposições, atrelado a criação da Trovoa, compreendo uma outra dimensão muito importante: o olhar de fora. Para quem eu estou transmitindo. As interpretações  e identificações mostram-me que  eu havia traduzido na minha particularidade imagens e sensações  que me aproximavam dos meus pares.  Então, como guia começo a investigar  a linha tênue entre o corpo-social  e o corpo-subjetivo, entre o íntimo e o público.",
   p2: "Falando sobre cura, uma pessoa se fez catapulta, me atirando num processo  de afirmação para acreditar no meu  processo e impulsioná-lo. Em 2017 conheci a Ângela Brito, nas reuniões da CURA,  onde nos reunimos com outras mulheres  que trabalham com criação. Estava num momento batendo cabeça e Ângela me disse: 'Só pega e faz. Onde te disserem que você não pode, você enfia o pé e diz Eu posso!'",
   p3: "Que a despretensão seja a minha guia. Uma diretriz que aprendi na prática com a Ana Almeida é a liberdade de fazer e não ter que suprir expectativas alheias. Enquanto mulher negra e artista eu não preciso fazer trabalhos ditos “políticos” o tempo inteiro. A minha liberdade intelectual, estética e expressiva me tiram de um lugar massificado. Agora estou pensando sobre as águas que acometem os meus sonhos constantemente, sobre pegar sol na laje, sobre tartarugas e plantas. Sobre desejos, falta de vontade e clausura. Sobre minhas avós, memória, ancestralidade e esquecimento. Tudo isso enquanto objeto, estudo, texto, imagem, técnica e meio. Absorve e tira o caldo. O produto vem depois.",
-  f1: "https://res.cloudinary.com/juliaf1/image/upload/v1614016689/Boca%20Mi%C3%BAda/carla_1_yzmrdf.png",
+  f1: "https://res.cloudinary.com/juliaf1/image/upload/v1614468624/Boca%20Mi%C3%BAda/carla_1_umvcsh.jpg",
   f2: "https://res.cloudinary.com/juliaf1/image/upload/v1614016692/Boca%20Mi%C3%BAda/carla_2_qjxmkx.png",
   f3: "https://res.cloudinary.com/juliaf1/image/upload/v1614016692/Boca%20Mi%C3%BAda/carla_3_qonx4q.png",
-  f4: "https://res.cloudinary.com/juliaf1/image/upload/v1614016690/Boca%20Mi%C3%BAda/carla_4_atfx2r.png",
+  f4: "https://res.cloudinary.com/juliaf1/image/upload/v1614468624/Boca%20Mi%C3%BAda/carla_4_kjitfj.jpg",
   f1_legenda: "Chás de Verão — Críticas Coletivas 
 Fotografia: Loli Brito",
   f2_legenda: "Recôndita, 2017
@@ -117,10 +117,10 @@ Manoel cria um universo onde aplica  uma pesquisa sobre a dimensão gráfica d
 
 Desenvolvendo séries em serigrafia,  Manoel cria o que eu gosto de chamar  de onomatopéias imagéticas.  Recorrendo a formas muito características das histórias  em quadrinhos, traz a natureza das explosões gráficas  que, ao meu ver, remetem diretamente aos estrondos e grunhidos cotidianos que nos passam batidos. Nessas serigrafias as formas  dão uma entonação ficcional e as cores indicam uma pulsão tendenciosa,  a sensação de surpresa e detonação. Permanece imbuído na criação  de imagens gráficas, sem a intenção de uma comunicação única.",
   p3: "Foi aluno de Iole de Freitas e estudou Sociologia na UFF. Participou de coletivas como Depois do Futuro (Daniela Labra),  A Felicidade Às Vezes Mora Aqui (Edmilson Nunes) e Carpintaria para Todos. Em 2016 apresenta a individual 'Tudo é muito bonito mas sei lá', na Fundação de Arte de Niterói.  Configura imagens nos limites entre desenho, pintura e objeto. Sua pesquisa questiona as fronteiras da literatura fantástica e a estética do cangaço, fauna/flora locais, e a disposição dos corpos na praia da boa viagem.",
-  f1: "https://res.cloudinary.com/juliaf1/image/upload/v1614016750/Boca%20Mi%C3%BAda/manoel_1_nvxjlo.png",
+  f1: "https://res.cloudinary.com/juliaf1/image/upload/v1614468834/Boca%20Mi%C3%BAda/manoel_1_exukgo.png",
   f2: "https://res.cloudinary.com/juliaf1/image/upload/v1614016759/Boca%20Mi%C3%BAda/manoel_2_pvhnfm.png",
-  f3: "https://res.cloudinary.com/juliaf1/image/upload/v1614016752/Boca%20Mi%C3%BAda/manoel_3_jna5av.png",
-  f4: "https://res.cloudinary.com/juliaf1/image/upload/v1614016754/Boca%20Mi%C3%BAda/manoel_4_qksbhr.png",
+  f3: "https://res.cloudinary.com/juliaf1/image/upload/v1614468835/Boca%20Mi%C3%BAda/manoel_3_gozkgw.png",
+  f4: "https://res.cloudinary.com/juliaf1/image/upload/v1614469112/Boca%20Mi%C3%BAda/manoel_4_elalgj.png",
   f1_legenda: "Chás de Verão — Críticas Coletivas 
 Fotografia: Loli Brito",
   f2_legenda: "Sem título (Jovens), 2020
