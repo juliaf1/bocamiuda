@@ -22,10 +22,12 @@
   h5 {
     color: $off-black;
     font-size: 18px;
+    margin-top: 32px;
   }
 
   p {
-    color: $light-gray;
+    color: $medium-gray;
+    font-weight: medium;
     font-size: 18px;
     max-width: 350px;
   }
