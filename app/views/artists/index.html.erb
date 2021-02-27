@@ -1,3 +1,8 @@
+<div class="general-heading">
+  <%= image_tag('logo_preto.svg', class: 'logo-preto-home') %>
+  <p>Estamos repensando possibilidades  e plataformas de arte na internet.</p>
+</div>
+
 <div class="container-categories-cards">
   <% @categories.each do |c| %>
     <div class="category-tag" id="<%= c.nome.downcase.split(" ").first %>">

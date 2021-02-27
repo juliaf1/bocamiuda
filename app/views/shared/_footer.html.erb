@@ -1,22 +1,24 @@
 <div class="footer">
-  <div class="footer-content">
-    <%= image_tag('logo_branco.svg', class: 'footer-logo') %>
-    <div class="footer-icons">
-      <%= image_tag('icon-estrela.svg', class: 'icon-estrela') %>
-      <%= image_tag('icon-circulo.svg', class: 'footer-icon') %>
-      <%= image_tag('icon-triangulo.svg', class: 'footer-icon') %>
-      <%= image_tag('icon-quadrado.svg', class: 'footer-icon') %>
-    </div>
-    <hr class="footer-dash">
+  <div class="footer-content-container">
+    <div class="footer-content">
+      <%= image_tag('logo_branco.svg', class: 'footer-logo') %>
+      <div class="footer-icons">
+        <%= image_tag('icon-estrela.svg', class: 'icon-estrela') %>
+        <%= image_tag('icon-circulo.svg', class: 'footer-icon') %>
+        <%= image_tag('icon-triangulo.svg', class: 'footer-icon') %>
+        <%= image_tag('icon-quadrado.svg', class: 'footer-icon') %>
+      </div>
+      <hr class="footer-dash">
 
-    <p class="footer-text">Say hello:<br>fala@bocamiuda.com</p>
+      <p class="footer-text">Say hello:<br>fala@bocamiuda.com</p>
 
-    <% if current_user %>
-      <% if params[:controller] == 'artists' && params[:action] == 'show'  %>
-        <%= link_to "Editar #{@artist.nome}", edit_artist_path(@artist), class: 'adm-links' %>
+      <% if current_user %>
+        <% if params[:controller] == 'artists' && params[:action] == 'show'  %>
+          <%= link_to "Editar #{@artist.nome}", edit_artist_path(@artist), class: 'adm-links' %>
+        <% end %>
+        <%= link_to "Criar Novo Artista", new_artist_path, class: 'adm-links' %>
+        <%= link_to "Sair", destroy_user_session_path, method: :delete, class: 'adm-links' %>
       <% end %>
-      <%= link_to "Criar Novo Artista", new_artist_path, class: 'adm-links' %>
-      <%= link_to "Sair", destroy_user_session_path, method: :delete, class: 'adm-links' %>
-    <% end %>
+    </div>
   </div>
 </div>

@@ -1,6 +1,15 @@
-<div class="boca-navbar">
-  <%= link_to root_path do %>
-    <%= image_tag('logo_preto.svg', class: 'logo-preto') %>
-  <% end %>
-  <%= link_to "About", root_path %>
-</div>
+<% if current_page?('/') %>
+  <div class="boca-navbar">
+    <%= link_to "Sobre", sobre_path, class: "sobre-cta" %>
+  </div>
+<% elsif current_page?('/sobre') %>
+  <div class="boca-navbar">
+    <%= link_to "Voltar", root_path, class: "voltar-cta" %>
+  </div>
+<% else %>
+  <div class="boca-navbar">
+    <%= link_to root_path do %>
+      <%= image_tag('logo_preto.svg', class: 'logo-preto') %>
+    <% end %>
+  </div>
+<% end %>
