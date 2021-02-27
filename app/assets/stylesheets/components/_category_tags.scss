@@ -1,7 +1,10 @@
-.category-tag {
+.category-tag, .category-tag-active {
   display: flex;
   align-items: center;
-  background-color: $black;
+  background-color: transparent;
+  -webkit-box-shadow:inset 0px 0px 0px 1px $black;
+  -moz-box-shadow:inset 0px 0px 0px 1px $black;
+  box-shadow:inset 0px 0px 0px 1px $black;
   padding: 16px 24px;
   border-radius: 40px;
   margin-bottom: 16px;
@@ -10,11 +13,20 @@
   img {
     height: 16px;
     margin-right: 8px;
+    display: none;
   }
 
   p {
     margin: 0;
     font-family: 'Durango Kid', sans-serif;
+    color: $black;
+  }
+}
+
+.active {
+  // display: none;
+  background-color: $black;
+  p {
     color: $white;
   }
 }
