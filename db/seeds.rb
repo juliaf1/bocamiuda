@@ -88,8 +88,8 @@ Queria mostrar os problemas, as dores, as inquietações: o indizível. Quando m
   p3: "Que a despretensão seja a minha guia. Uma diretriz que aprendi na prática com a Ana Almeida é a liberdade de fazer e não ter que suprir expectativas alheias. Enquanto mulher negra e artista eu não preciso fazer trabalhos ditos “políticos” o tempo inteiro. A minha liberdade intelectual, estética e expressiva me tiram de um lugar massificado. Agora estou pensando sobre as águas que acometem os meus sonhos constantemente, sobre pegar sol na laje, sobre tartarugas e plantas. Sobre desejos, falta de vontade e clausura. Sobre minhas avós, memória, ancestralidade e esquecimento. Tudo isso enquanto objeto, estudo, texto, imagem, técnica e meio. Absorve e tira o caldo. O produto vem depois.",
   f1: "https://res.cloudinary.com/juliaf1/image/upload/v1614468624/Boca%20Mi%C3%BAda/carla_1_umvcsh.jpg",
   f2: "https://res.cloudinary.com/juliaf1/image/upload/v1614016692/Boca%20Mi%C3%BAda/carla_2_qjxmkx.png",
-  f3: "https://res.cloudinary.com/juliaf1/image/upload/v1614016692/Boca%20Mi%C3%BAda/carla_3_qonx4q.png",
-  f4: "https://res.cloudinary.com/juliaf1/image/upload/v1614468624/Boca%20Mi%C3%BAda/carla_4_kjitfj.jpg",
+  f3: "https://res.cloudinary.com/juliaf1/image/upload/v1614468624/Boca%20Mi%C3%BAda/carla_3_kjitfj.jpg",
+  f4: "https://res.cloudinary.com/juliaf1/image/upload/v1614016690/Boca%20Mi%C3%BAda/carla_4_atfx2r.png",
   f1_legenda: "Chás de Verão — Críticas Coletivas 
 Fotografia: Loli Brito",
   f2_legenda: "Recôndita, 2017
