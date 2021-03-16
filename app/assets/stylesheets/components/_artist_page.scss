@@ -1,4 +1,9 @@
 .artist-text-content, .artist-img-container {
+  h1 {
+    line-height: 1.1;
+    margin-bottom: 16px;
+  }
+
   p {
     white-space: pre-wrap;
   }
