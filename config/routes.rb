@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   devise_for :users, controllers: { registrations: "registrations" }
-  resources :artists, only: [ :index, :show, :edit, :update, :new, :create ]
+  resources :artists, only: [ :index, :show, :edit, :update, :new, :create, :destroy ]
 
   get '/sobre', to: "pages#sobre"
   root to: 'artists#index'

@@ -8,8 +8,8 @@
         <%= f.input :nome, label: 'Nome do Artista' %>
         <%= f.input :cidade, label: 'Cidade Natal' %>
         <%= f.association :category, label_method: :nome %>
-        <%= f.input :social, label: 'Instagram', placeholder: '@manoelmanoel' %>
-        <%= f.input :pdf, label: 'Link de download do PDF', placeholder: 'www.urlurl.com' %>
+        <%= f.input :social, label: 'User do Instagram', placeholder: 'manoelmanoel (sem @)' %>
+        <%= f.input :pdf, label: 'Link de download do PDF', placeholder: 'www.link-do-pdf-aqui.com' %>
         <%= f.input :f1, label: 'Link da Foto 1', placeholder: 'https://...' %>
         <%= f.input :f1_legenda, label: 'Legenda da Foto 1', :input_html => {:style => 'width: 100%', :rows => 3 } %>
         <%= f.input :f2, label: 'Link da Foto 2', placeholder: 'https://...' %>
