@@ -15,8 +15,9 @@
 <div class="container-artists-cards">
   <% @artists.each do |a| %>
     <% if a.h1 %>
+
       <%= link_to artist_path(a) do %>
-        <div class="artist-card <%= a.category.nome.downcase.split(" ").first %>">
+        <div class="artist-card <%= a.category.nome.downcase.split(" ").first %> artist-card-available">
           <div class="artist-card-name">
             <%= image_tag("#{a.category.icon}.svg") %>
             <h4><%= a.nome %></h4>
@@ -24,14 +25,17 @@
           <p><%= a.cidade %></p>
         </div>
       <% end %>
+
     <% else %>
-      <div class="artist-card <%= a.category.nome.downcase.split(" ").first %>">
+
+      <div class="artist-card <%= a.category.nome.downcase.split(" ").first %> artist-card-unavailable">
         <div class="artist-card-name">
           <%= image_tag("#{a.category.icon}.svg") %>
           <h4><%= a.nome %></h4>
         </div>
         <p><%= a.cidade %></p>
       </div>
+
     <% end %>
   <% end %>
 </div>

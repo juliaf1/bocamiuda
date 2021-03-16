@@ -51,3 +51,23 @@
     color: $medium-gray;
   }
 }
+
+.artist-card-available {
+  h4 {
+    color: $black;
+  }
+
+  p {
+    color: $dark-gray;
+  }
+}
+
+.artist-card-unavailable {
+  h4 {
+    color: $medium-gray;
+  }
+
+  p {
+    color: $light-gray;
+  }
+}
