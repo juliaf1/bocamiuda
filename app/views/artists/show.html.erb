@@ -1,3 +1,5 @@
+<% content_for :meta_title, "#{@artist.nome} em #{DEFAULT_META["meta_product_name"]}" %>
+
 <div class="artist-info-container">
   <div class="artist-info-name">
     <%= image_tag("#{@artist.category.icon}.svg", class: 'artist-icon') %>

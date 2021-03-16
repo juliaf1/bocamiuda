@@ -1,0 +1,6 @@
+meta_product_name: "Boca Miúda"
+meta_title: "Serviço local (sem criar alarde)"
+meta_description: "Um circuito recortado, polifônico e incompleto de artistas."
+meta_image: "img_og_fb.png" # should exist in `app/assets/images/`
+meta_tt_image: "img_og_tt.png"
+twitter_account: "@manoelmanoel"   # required for Twitter Cards
