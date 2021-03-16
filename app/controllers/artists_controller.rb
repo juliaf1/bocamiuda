@@ -4,7 +4,7 @@ class ArtistsController < ApplicationController
 
   def index
     @categories = Category.all
-    @artists = Artist.all.order(:h1)
+    @artists = Artist.all.order(:nome)
     authorize @artists
   end
 
