@@ -1,6 +1,6 @@
 class ArtistsController < ApplicationController
   skip_before_action :authenticate_user!, only: [ :index, :show ]
-  before_action :find_artist, only: [ :show, :edit, :update ]
+  before_action :find_artist, only: [ :show, :edit, :update, :destroy ]
 
   def index
     @categories = Category.all
@@ -38,6 +38,12 @@ class ArtistsController < ApplicationController
     else
       render :new, alert: "Eita, deu ruim. Tente de novo."
     end
+  end
+
+  def destroy
+    authorize @artist
+    @artist.destroy
+    redirect_to artists_path
   end
 
   private

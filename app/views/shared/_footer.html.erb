@@ -15,6 +15,7 @@
       <% if current_user %>
         <% if params[:controller] == 'artists' && params[:action] == 'show'  %>
           <%= link_to "Editar #{@artist.nome}", edit_artist_path(@artist), class: 'adm-links' %>
+          <%= link_to "Excluir #{@artist.nome}", artist_path(@artist), data: { confirm: "Certeza que é para excluir?" }, method: :delete, class: 'adm-links' %>
         <% end %>
         <%= link_to "Criar Novo Artista", new_artist_path, class: 'adm-links' %>
         <%= link_to "Sair", destroy_user_session_path, method: :delete, class: 'adm-links' %>
