@@ -16,7 +16,9 @@ import "bootstrap";
 
 // Internal imports
 import { home } from '../components/home';
+import { homeScroll } from '../components/home-scroll.js';
 
 document.addEventListener('turbolinks:load', () => {
   home();
+  homeScroll();
 });

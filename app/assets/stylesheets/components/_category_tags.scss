@@ -1,3 +1,10 @@
+#seta {
+  font-size: 64px;
+  margin: 0px 0 32px 8px;
+  transition: transform ease-in-out 0.4s;
+  transform-origin: 50% 75%;
+}
+
 .category-tag, .category-tag-active {
   display: flex;
   align-items: center;
@@ -38,5 +45,5 @@
 }
 
 .container-categories-cards {
-  margin-bottom: 32px;
+  margin-bottom: 40px;
 }

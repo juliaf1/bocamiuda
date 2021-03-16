@@ -3,6 +3,8 @@
   <p>Estamos repensando possibilidades e plataformas de arte na internet.</p>
 </div>
 
+<i class="fas fa-sort-down" id="seta"></i>
+
 <div class="container-categories-cards">
   <% @categories.each do |c| %>
     <div class="category-tag" id="<%= c.nome.downcase.split(" ").first %>">
